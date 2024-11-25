@@ -56,7 +56,7 @@ export function Detail({ tokenId }: DetailProps) {
         <Img src={nft?.image} />
         <InfoWrap>
           <Margin margin="0 0 30px 0">
-            <p style={{ color: "white" }}>Synthia Identity #{nft?.tokenId}</p>
+            <p style={{ color: "white" }}>Nethria Identity #{nft?.tokenId}</p>
           </Margin>
           {nft?.stats.map((stat) => {
             return (

@@ -61,7 +61,7 @@ const windowList: WindowData[] = [
   {
     id: "my-avatars",
     defaultPosition: { x: x(), y: y(), width: 870, height: 520 },
-    title: "Your Synthia Identities",
+    title: "Your Nethria Identities",
     isActive: false,
     content: <MyAvatars />,
   },

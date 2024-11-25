@@ -204,15 +204,13 @@ const Terminal: React.FC<TerminalProps> = ({ onExit }) => {
   } = useMainStore();
 
   const [commands] = useState([
-    "syn",
-    "message",
-    "connect wallet",
+    
+    "message", 
     "mint",
     "create",
     "nethria",
     "os",
-    "clear",
-    "chat",
+    "clear", 
     "exit",
   ]);
 
@@ -225,12 +223,7 @@ const Terminal: React.FC<TerminalProps> = ({ onExit }) => {
 
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const synthiaAsciiArt = `  _________             __  .__    .__        
- /   _____/__.__. _____/  |_|  |__ |__|____   
- \\_____  <   |  |/    \\   __\\  |  \\|  \\__  \\  
- /        \\___  |   |  \\  | |   Y  \\  |/ __ \\_
-/_______  / ____|___|  /__| |___|  /__(____  /
-        \\/\\/         \\/          \\/        \\/ `;
+  const synthiaAsciiArt = `test1`;
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setUserInput(event.target.value);
@@ -262,7 +255,7 @@ const Terminal: React.FC<TerminalProps> = ({ onExit }) => {
         ...out,
         "\n",
         <>
-          Transaction confirmed. Welcome to Synthia's harmonious virtual realm.{" "}
+          Transaction confirmed. Welcome to Nethria's harmonious virtual realm.{" "}
           <a
             target="_blank"
             data-cursor
@@ -333,7 +326,7 @@ nethria: Display Nethria's current health and status effects.
 
 help: Display a list of available commands and a brief description of their functions.
 
-quit: Exit the game and return to the main Synthia terminal.`,
+quit: Exit the game and return to the main Nethria terminal.`,
       ...(additionalContent ? [additionalContent] : []),
     ]);
   }, []);
@@ -754,7 +747,7 @@ quit: Exit the game and return to the main Synthia terminal.`,
       } else if (userInput.trim() === "syn") {
         setOutput([
           ...newOutput,
-          `The syn command communicates with Synthia. Follow the syn command with your message to Synthia.\nExample:\n\nsyn Hello. What is this project about?`,
+          `The net command communicates with Nethria. Follow the net command with your message to Nethria.\nExample:\n\nsyn Hello. What is this project about?`,
         ]);
       } else if (userInput.trim() === "os") {
         navigate("/syn-os");
@@ -830,7 +823,7 @@ quit: Exit the game and return to the main Synthia terminal.`,
       } else {
         setOutput([
           ...newOutput,
-          `Invalid command: ${userInput}\nRemember to use the syn command when talking to Synthia.`,
+          `Invalid command: ${userInput}\nRemember to use the net command when talking to Synthia.`,
         ]);
       }
       setOutput((output) => [...output, "\n"]);

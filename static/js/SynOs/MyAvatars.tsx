@@ -65,7 +65,7 @@ const detailWindow = (tokenId: string): WindowData => {
   return {
     id: tokenId.toString(),
     isActive: true,
-    title: `Synthia Identity #${tokenId}`,
+    title: `Nethria Identity #${tokenId}`,
     content: <Detail tokenId={tokenId} />,
     defaultPosition: getDefaultWindowProps(),
   };
@@ -121,7 +121,7 @@ export function MyAvatars() {
         {!loadingNfts && !nfts?.length && (
           <div>
             <Color color="white">
-              <p>You don't own any Synthia NFTs</p>
+              <p>You don't own any Nethria NFTs</p>
             </Color>
             <Margin margin="2rem 0">
               <Button onClick={() => updateTerminalOpen(true)}>MINT NOW</Button>

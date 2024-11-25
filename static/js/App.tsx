@@ -183,7 +183,7 @@ function App() {
   const menuItems = (
     <>
       <Link to="/syn-os">
-        <Button>SYN OS</Button>
+        <Button>NET OS</Button>
       </Link>
 
       <a

@@ -509,7 +509,7 @@ function Home() {
               <Color color="#FFF">
                 <p>
                   In a shattered world ravaged by the malevolent Nethria,
-                  humanity finds solace in Synthia's virtual refuge. Unite with
+                  humanity finds solace in Nethria 's virtual refuge. Unite with
                   intriguing factions, each embracing unique perspectives and
                   goals, as together we strive to ensure the survival and future
                   of humankind.
@@ -576,14 +576,14 @@ function Home() {
               <Margin margin="2rem 0">
                 <Color color="#FFF">
                   <p>
-                    Synthia NFTs are created and rendered entirely onchain. When
-                    you mint a Synthia NFT, a random seed is generated that
-                    determines the traits of your Synthia Virtual Identity.
+                    Nethria NFTs are created and rendered entirely onchain. When
+                    you mint a Nethria NFT, a random seed is generated that
+                    determines the traits of your Nethria Virtual Identity.
                   </p>
                   <p>
                     Spritesheets are stored on Ethereum and different
                     coordiantes within the spritesheets are used to layer
-                    together the Synthia NFT image. Most traits are grayscale
+                    together the Nethria NFT image. Most traits are grayscale
                     and we use SVG filters to color traits directly onchain.
                   </p>
                 </Color>
@@ -600,14 +600,14 @@ function Home() {
               <Margin margin="2rem 0">
                 <Color color="#FFF">
                   <p>
-                    Synthia NFTs are licensed as CC0. We are champions of CC0
+                    Nethria NFTs are licensed as CC0. We are champions of CC0
                     onchain assets. These NFTs usher in a new paradigm for
                     collaborative world building that has yet to be fully
                     realized. We believe that these types of projects are the
                     future of gaming and stories.
                   </p>
                   <p>
-                    Synthia is part of the Dep ecosystem, a web3 CC0 driven
+                    Nethria is part of the Dep ecosystem, a web3 CC0 driven
                     gaming ecosystem along with{" "}
                     <a href="https://heroes.fun" target="_blank">
                       Heroes
