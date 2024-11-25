@@ -66728,7 +66728,7 @@
             h = He(
               t.Fragment,
               null,
-              He(CS, { to: "/syn-os" }, He(yv, null, "SYN OS")),
+              He(CS, { to: "/syn-os" }, He(yv, null, "NET OS")),
               
               He(
                 "a",
