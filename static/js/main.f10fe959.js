@@ -64331,7 +64331,6 @@
               l(
                 (0, t.useState)([ 
                   "message", 
-                  "mint",
                   "create",
                   "nethria",
                   "os",
@@ -65944,8 +65943,8 @@
               He(
                 "div",
                 { css: Fk },
-                [1, 3, 5, 10, 20].map(function (e) {
-                  return He(yv, { key: e, onClick: F(String(e)) }, "Mint ", e);
+                ["UNRAVEL" , "THE", "CODE", "FACE ", "DESTINY"].map(function (e) {
+                  return He(yv, { key: e, onClick: F(String(e)) }, " ", e);
                 })
               ),
               He("p", { style: { margin: "1rem 0" } }, "Commands:"),
@@ -66729,7 +66728,7 @@
             h = He(
               t.Fragment,
               null,
-              He(CS, { to: "/syn-os" }, He(yv, null, "NET OS")),
+              He(CS, { to: "/syn-os" }, He(yv, null, "SYN OS")),
               
               He(
                 "a",
